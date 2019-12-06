@@ -1,2 +1,0 @@
-# BigDataNodes
-Some bigdata nodes
