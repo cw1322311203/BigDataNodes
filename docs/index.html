@@ -7,17 +7,18 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  <!-- Theme: Defaults -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-defaults.css">
 </head>
 <body>
   <div id="app">加载中...</div>
   <script>
     window.$docsify = {
-      name: '',
+      name: 'MD笔记集合(点我回根目录)',
+	  nameLink:'https://cw1322311203.github.io/BigDataNodes/#/README',
       repo: 'https://github.com/cw1322311203/BigDataNodes.git',
 	  loadNavbar: true,
-	  loadSidebar: true
+	  loadSidebar: true,
+	  mergeNavbar: true,/* 小屏设备下合并导航栏到侧边栏 */
+	  search: 'auto',/* 全局搜索插件 */
     }
   </script>
   <!-- Docsify v4 -->
